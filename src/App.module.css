@@ -47,3 +47,50 @@
 .addNewTaskSection button:hover {
   background: var(--blue);
 }
+
+.countersBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 4rem;
+
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.countersBox span {
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+}
+
+.tasksCreated {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--blue);
+}
+
+.tasksCreated span {
+  color: var(--gray-200);
+}
+
+.completedTasks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--purple);
+}
+
+.completedTasks span {
+  color: var(--gray-200);
+}
+
+.todoListBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+}

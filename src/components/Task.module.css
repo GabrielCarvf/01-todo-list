@@ -1,0 +1,77 @@
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 0.75rem;
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.06);
+}
+
+.checkboxAndTaskText {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.checkboxAndTaskText input {
+  width: 1rem;
+  height: 1rem;
+  background-color: transparent;
+  border-radius: 100%;
+  vertical-align: middle;
+  border: 2px solid var(--blue);
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkboxAndTaskText input:hover {
+  background-color: rgba(30, 111, 159, 0.2);
+}
+
+.checkboxAndTaskText input:checked {
+  background-color: var(--purple-dark);
+  border: 0;
+}
+
+.checkboxAndTaskText input:checked:hover {
+  background-color: var(--purple);
+  border: 0;
+}
+
+.unfinishedTaskText {
+  line-height: 1.4;
+  font-size: 0.875rem;
+}
+
+.completedTaskText {
+  text-decoration-line: line-through;
+  color: var(--gray-300);
+  line-height: 1.4;
+  font-size: 0.875rem;
+}
+
+.task button {
+  min-width: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  border-radius: 4px;
+
+  cursor: pointer;
+  line-height: 0;
+  transition: 0.2s;
+}
+
+.task button:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+}
