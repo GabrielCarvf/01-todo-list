@@ -1,7 +1,7 @@
 .content {
   max-width: 46rem;
   display: grid;
-  margin: -1rem auto;
+  margin: -1.68rem auto;
   grid-template-columns: 1fr;
 }
 
@@ -46,6 +46,12 @@
 
 .addNewTaskSection button:hover {
   background: var(--blue);
+}
+
+.addNewTaskSection button:disabled{
+  background: var(--gray-500);
+  color: var(--gray-300);
+  cursor: not-allowed;
 }
 
 .countersBox {
@@ -93,4 +99,6 @@
   flex-direction: column;
   gap: 0.75rem;
   padding: 1rem;
+  max-height: 22.5rem;
+  overflow: auto;
 }

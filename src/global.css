@@ -28,6 +28,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  scrollbar-width: thin;
+  scrollbar-color: var(--blue-dark) transparent;
 }
 
 body {
@@ -40,4 +43,18 @@ body, input, textarea, button {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1rem;
+}
+
+*::-webkit-scrollbar {
+  width: 0.35rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--blue-dark);
+  border-radius: 999px;
+  border: 0;
 }
