@@ -1,8 +1,8 @@
 <div align="center">
   
   ![logo](src/assets/logo-todo.svg)
+  ___ 
 </div>
-<br>
 
 ### Essa é uma aplicação onde o usuário poderá adicionar uma lista de afazeres. Na aplicação incluí as seguintes funcionalidades:
 
