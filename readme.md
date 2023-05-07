@@ -1,7 +1,6 @@
 <div align="center">
   
   ![logo](src/assets/logo-todo.svg)
-  ___ 
 </div>
 <br>
 
